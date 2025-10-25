@@ -8,7 +8,7 @@ import ListItem from '../../components/list/ListItem';
 const Footers = (props) => {
 
     const theme = useTheme();
-    const { colors } : {colors} = theme;
+    const { colors } = theme;
 
     const FooterData = [
         {

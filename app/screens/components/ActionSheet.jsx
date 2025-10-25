@@ -15,7 +15,7 @@ import { GlobalStyleSheet } from '../../constants/styleSheet';
 const ActionSheet = () => {
 
     const theme = useTheme();
-    const { colors } : {colors} = theme;
+    const { colors } = theme;
 
     const refRBSheet = useRef();
 

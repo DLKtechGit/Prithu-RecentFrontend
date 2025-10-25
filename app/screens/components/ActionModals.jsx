@@ -15,7 +15,7 @@ import { GlobalStyleSheet } from '../../constants/styleSheet';
 const ActionModals = () => {
 
     const theme = useTheme();
-    const { colors } : {colors} = theme;
+    const { colors } = theme;
 
     const [activeSheet, setActiveSheet] = useState('');
     const [modalVisible, setModalVisible] = useState(false);

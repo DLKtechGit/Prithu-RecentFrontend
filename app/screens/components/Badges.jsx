@@ -11,7 +11,7 @@ import { GlobalStyleSheet } from '../../constants/styleSheet';
 const Badges = () => {
 
     const theme = useTheme();
-    const { colors } : {colors} = theme;
+    const { colors } = theme;
 
     return (
         <>

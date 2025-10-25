@@ -12,7 +12,7 @@ import blog from '../../../assets/images/icons/blog.png';
 
 const CustomNavigation = ({state,navigation,descriptors}) => {
     
-    const { colors } : {colors} = useTheme();
+    const { colors } = useTheme();
 
     const offset = useSharedValue((SIZES.width - 20) / 2.5);
 

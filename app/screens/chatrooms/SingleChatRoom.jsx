@@ -122,7 +122,7 @@ const ChatData = [
 const SingleChatRoom = ({ navigation } : SingleChatRoomScreenProps)  => {
 
     const theme = useTheme();
-    const { colors } : {colors} = theme;
+    const { colors } = theme;
 
     const sheetRef = React.useRef();
 

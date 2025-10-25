@@ -40,7 +40,7 @@ const Tab = createBottomTabNavigator();
 
 const TabStyle1 = () => {
 
-    const { colors } : {colors} = useTheme();
+    const { colors } = useTheme();
 
     return (
         <SafeAreaView style={{flex:1,backgroundColor:colors.card}}>

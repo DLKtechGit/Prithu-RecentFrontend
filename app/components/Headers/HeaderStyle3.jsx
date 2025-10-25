@@ -6,7 +6,7 @@ import { COLORS, FONTS, IMAGES, SIZES } from '../../constants/theme';
 
 const HeaderStyle3 = () => {
 
-    const { colors } : {colors} = useTheme();
+    const { colors } = useTheme();
 
     return (
         <>

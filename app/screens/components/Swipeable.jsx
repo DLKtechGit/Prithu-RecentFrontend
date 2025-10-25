@@ -52,7 +52,7 @@ const SwipeData = [
 const SwipeableScreen = () => {
 
      const theme = useTheme();
-    const { colors } : {colors} = theme;
+    const { colors } = theme;
 
     const [lists, setLists] = useState(SwipeData);
 

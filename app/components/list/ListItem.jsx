@@ -8,7 +8,7 @@ import { useTheme } from '@react-navigation/native';
 const ListItem = (props) => {
 
     const theme = useTheme();
-    const { colors } : {colors } = theme;
+    const { colors } = theme;
 
     return (
         <View>

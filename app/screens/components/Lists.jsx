@@ -18,7 +18,7 @@ const button = `<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.
 const ListScreen = () => {
 
     const theme = useTheme();
-    const { colors } : {colors} = theme;
+    const { colors } = theme;
 
     return (
         <SafeAreaView style={{ flex: 1, backgroundColor: colors.card }}>

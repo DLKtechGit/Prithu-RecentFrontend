@@ -10,7 +10,7 @@ import { GlobalStyleSheet } from '../../constants/styleSheet';
 
 const LoginSheet = ({sheetRef}) => {
 
-    const { colors } : {colors} = useTheme();
+    const { colors } = useTheme();
 
     return (
         <View style={GlobalStyleSheet.container}>

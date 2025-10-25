@@ -9,7 +9,7 @@ import Button from '../button/Button';
 
 const PricingStyle1 = () => {
     
-    const { colors } : {colors} = useTheme();
+    const { colors } = useTheme();
 
     const Data = [
         'Access to all basic features',

@@ -12,7 +12,7 @@ import { GlobalStyleSheet } from '../../constants/styleSheet';
 const Snackbars = () => {
 
     const theme = useTheme();
-    const {colors} : {colors} = theme;
+    const {colors} = theme;
 	
 	const [visible, setVisible] = React.useState(false);
 	const [snackText, setSnackText] = React.useState("");

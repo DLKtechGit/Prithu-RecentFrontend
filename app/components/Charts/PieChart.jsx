@@ -5,7 +5,7 @@ import { COLORS, SIZES } from '../../constants/theme';
 
 const BasicPieChart = () => {
 
-  const { colors } : {colors} = useTheme();
+  const { colors } = useTheme();
 
     const data = [
         {

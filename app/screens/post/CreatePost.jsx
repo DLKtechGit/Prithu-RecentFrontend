@@ -81,7 +81,7 @@ const CreatePost = ({ navigation } : CreatePostScreenProps) => {
     const [imageurl, setimageurl] = React.useState(IMAGES.profilepic1);
 
     const theme = useTheme();
-    const { colors } : {colors} = theme;
+    const { colors } = theme;
 
     return (
         <SafeAreaView style={[GlobalStyleSheet.container,{padding:0, backgroundColor:colors.card,flex:1}]}>

@@ -35,7 +35,7 @@ const WriteCaption = () => {
     const [color, setcolor] = React.useState(COLORS.primary);
 
     const theme = useTheme();
-    const { colors } : {colors} = theme;
+    const { colors } = theme;
 
   return (
     <SafeAreaView style={[GlobalStyleSheet.container,{padding:0, backgroundColor:colors.card,flex:1}]}>

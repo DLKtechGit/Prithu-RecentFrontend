@@ -9,7 +9,7 @@ import { GlobalStyleSheet } from '../../constants/styleSheet';
 
 const AccordionScreen = () => {
 
-    const { colors } : {colors} = useTheme();
+    const { colors } = useTheme();
 
     return (
         <SafeAreaView style={{flex:1,backgroundColor:colors.card}}>

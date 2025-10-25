@@ -12,7 +12,7 @@ import { GlobalStyleSheet } from '../../constants/styleSheet';
 const Buttons = () => {
 
     const theme = useTheme();
-    const { colors } : {colors} = theme;
+    const { colors } = theme;
 
     return (
         <>

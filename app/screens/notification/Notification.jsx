@@ -174,7 +174,7 @@ const DATA = [
 const Notification =  ({ navigation } : NotificationScreenProps) => {
 
     const theme = useTheme();
-    const { colors } : {colors} = theme;
+    const { colors } = theme;
 
     // const route = useRoute();
             

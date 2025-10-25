@@ -55,7 +55,7 @@ const SpearkersData = [
 const ChatRoomVideoCallON = ({ navigation } : ChatRoomVideoCallONScreenProps) => {
 
     const theme = useTheme();
-    const { colors } : {colors} = theme;
+    const { colors } = theme;
   
     const [show, setshow] = React.useState(true);
 

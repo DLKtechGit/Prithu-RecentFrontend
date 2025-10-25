@@ -7,7 +7,7 @@ import { COLORS } from '../../constants/theme';
 
 const ToggleStyle2 = () => {
     
-    const { colors } : {colors} = useTheme();
+    const { colors } = useTheme();
 
     const [active , setActive] = useState(false);
 

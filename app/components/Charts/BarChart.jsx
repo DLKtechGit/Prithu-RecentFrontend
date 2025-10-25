@@ -5,7 +5,7 @@ import { COLORS, SIZES } from '../../constants/theme';
 
 const BasicBarChart = () => {
     
-    const { colors } : {colors} = useTheme();
+    const { colors } = useTheme();
 
     const data = {
         labels: ["Jan", "Feb", "Mar", "Apr", "May", "Jun"],

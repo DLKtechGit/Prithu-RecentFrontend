@@ -158,7 +158,7 @@ const Item = ({ title, image, text, hasStory, theme, navigation }: any) => {
 const Suggestions = () => {
 
     const theme = useTheme();
-    const { colors } : {colors} = theme;
+    const { colors } = theme;
 
 const navigation = useNavigation();
 

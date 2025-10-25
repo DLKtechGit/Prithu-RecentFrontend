@@ -9,7 +9,7 @@ import Button from '../button/Button';
 
 const RegisterModal = ({close}) => {
 
-    const { colors } : {colors} = useTheme();
+    const { colors } = useTheme();
 
     return (
         <>

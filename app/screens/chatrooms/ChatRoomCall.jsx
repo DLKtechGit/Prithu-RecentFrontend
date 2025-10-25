@@ -14,7 +14,7 @@ const ChatRoomCall = ({ navigation } : ChatRoomCallScreenProps) => {
     const [show, setshow] = React.useState(true);
 
     const theme = useTheme();
-    const { colors } : {colors} = theme;
+    const { colors } = theme;
 
     useEffect(()=>{
         setTimeout(() => {

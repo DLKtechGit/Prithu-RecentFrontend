@@ -9,7 +9,7 @@ export const Sharebtn = (props) => {
     const { title, onPress, white } = props;
 
     const theme = useTheme();
-    const { colors } : {colors} = theme;
+    const { colors } = theme;
 
     return (
         <TouchableOpacity

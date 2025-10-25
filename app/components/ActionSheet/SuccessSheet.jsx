@@ -6,7 +6,7 @@ import { COLORS, FONTS } from '../../constants/theme';
 
 const SuccessSheet = () => {
 
-    const { colors } : {colors} = useTheme();
+    const { colors } = useTheme();
 
     return (
         <View style={{alignItems:'center',paddingHorizontal:35,paddingVertical:20}}>

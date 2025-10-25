@@ -57,7 +57,7 @@ const ChatRoomCallON = ({ navigation } : ChatRoomCallONScreenProps) => {
     const [show, setshow] = React.useState(true);
 
     const theme = useTheme();
-    const { colors } : {colors} = theme;
+    const { colors } = theme;
 
     const route = useRoute();
             

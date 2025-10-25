@@ -210,7 +210,7 @@ const PostShareSheet = (props, ref: any) => {
     }
 
     const theme = useTheme();
-    const { colors } : {colors} = theme;
+    const { colors } = theme;
 
     return (
         <BottomSheet

@@ -6,7 +6,7 @@ import { FONTS } from '../../constants/theme';
 
 const CustomInput = (props) => {
 
-    const { colors } : {colors} = useTheme();
+    const { colors } = useTheme();
 
     const [passwordShow , setPasswordShow ] = useState(true);
     

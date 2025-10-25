@@ -90,7 +90,7 @@ const Nextpage = ({ route, navigation }: NextpageScreenProps) => {
         uri: mediaUrl,
         name: mediaType === 'video' ? 'upload.mp4' : 'upload.jpg',
         type: mediaType === 'video' ? 'video/mp4' : 'image/jpeg',
-      } as any);
+      });
 
       // Fields
       formData.append('language', language);

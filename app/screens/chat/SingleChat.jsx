@@ -108,7 +108,7 @@ const ChatData = [
 const SingleChat = ({ navigation } : SingleChatScreenProps)  => {
 
     const theme = useTheme();
-    const { colors } : {colors} = theme;
+    const { colors } = theme;
 
     const moresheet = useRef();
 

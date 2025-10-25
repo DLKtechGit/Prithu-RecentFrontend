@@ -37,7 +37,7 @@ const musicData = [
 const SavedMusic = () => {
 
     const theme = useTheme();
-    const { colors } : {colors} = theme;
+    const { colors } = theme;
 
     const moresheet = React.useRef();
 

@@ -10,7 +10,7 @@ import { GlobalStyleSheet } from '../../constants/styleSheet';
 const Tabs = () => {
 
      const theme = useTheme();
-    const { colors } : {colors} = theme;
+    const { colors } = theme;
 
     const buttons = ['First', 'Second', 'Third'];
     const scrollX = useRef(new Animated.Value(0)).current;

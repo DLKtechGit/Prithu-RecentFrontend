@@ -164,7 +164,7 @@ const Item = ({ title, image, text, hasStory, navigation, theme }) => {
 const ActiveChat = () => {
 
     const theme = useTheme();
-    const { colors } : {colors} = theme;
+    const { colors } = theme;
 
     return (
         <View style={{paddingLeft:15,marginBottom:20}}>
@@ -178,7 +178,7 @@ const NewChat = () => {
     const navigation = useNavigation();
     
     const theme = useTheme();
-    const { colors } : {colors} = theme;
+    const { colors } = theme;
 
   return (
     <SafeAreaView style={[GlobalStyleSheet.container,{padding:0, backgroundColor: colors.card, flex: 1 }]}>

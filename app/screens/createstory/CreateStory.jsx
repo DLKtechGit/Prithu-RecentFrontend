@@ -11,7 +11,7 @@ import { GlobalStyleSheet } from '../../constants/styleSheet';
 const CreateStory = ({ navigation } : CreateStoryScreenProps)  => {
 
   const theme = useTheme();
-  const { colors } : {colors} = theme;
+  const { colors } = theme;
   
   return (
     <SafeAreaView style={{backgroundColor:colors.card}}>

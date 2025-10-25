@@ -7,7 +7,7 @@ import { useTheme } from '@react-navigation/native';
 
 const AccordionHighlight = () => {
 
-    const { colors } : {colors} = useTheme();
+    const { colors } = useTheme();
 
     const [activeSections, setActiveSections] = useState([0]);
     const setSections = (sections) => {

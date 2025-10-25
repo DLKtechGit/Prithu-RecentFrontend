@@ -169,7 +169,7 @@ const Item = ({ title, image, text, hasStory, navigation, theme }) => {
 const ActiveChat = () => {
 
     const theme = useTheme();
-    const { colors } : {colors} = theme;
+    const { colors } = theme;
 
     return (
         <View style={{paddingLeft:15,marginBottom:20}}>
@@ -184,7 +184,7 @@ const AddMembers = () => {
     const navigation = useNavigation();
     
     const theme = useTheme();
-    const { colors } : {colors} = theme;
+    const { colors } = theme;
 
 
     return (

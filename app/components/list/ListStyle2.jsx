@@ -7,7 +7,7 @@ import { COLORS, FONTS, SIZES } from '../../constants/theme';
 
 const ListStyle2 = (props) => {
 
-    const { colors } : {colors} = useTheme();
+    const { colors } = useTheme();
 
     return (
         <>

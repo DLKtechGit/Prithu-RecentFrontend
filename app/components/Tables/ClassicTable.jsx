@@ -6,7 +6,7 @@ import { GlobalStyleSheet } from '../../constants/styleSheet';
 
 const ClassicTable = () => {
 
-    const { colors } : {colors} = useTheme();
+    const { colors } = useTheme();
 
     const TableData = [
         {

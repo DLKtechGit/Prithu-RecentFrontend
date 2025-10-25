@@ -6,7 +6,7 @@ import { COLORS, FONTS, SIZES } from '../../constants/theme';
 
 const SuccessModal = () => {
 
-    const { colors } : {colors} = useTheme();
+    const { colors } = useTheme();
 
     return (
         <>

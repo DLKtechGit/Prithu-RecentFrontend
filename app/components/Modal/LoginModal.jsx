@@ -8,7 +8,7 @@ import Button from '../button/Button';
 
 const LoginModal = ({close}) => {
 
-    const { colors } : {colors} = useTheme();
+    const { colors } = useTheme();
 
     return (
         <>

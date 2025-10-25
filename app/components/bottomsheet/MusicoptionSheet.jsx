@@ -157,7 +157,7 @@ const MusicoptionSheet = (props:any, ref:any) => {
     }
 
     const theme = useTheme();
-    const { colors } : {colors} = theme;
+    const { colors } = theme;
 
     const navigation = useNavigation();
 

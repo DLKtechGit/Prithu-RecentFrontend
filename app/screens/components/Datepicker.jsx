@@ -11,7 +11,7 @@ import { GlobalStyleSheet } from '../../constants/styleSheet';
 const Datepicker = () => {
 
     const theme = useTheme();
-    const { colors } : {colors} = theme;
+    const { colors } = theme;
 
     const [date, setDate] = useState(new Date())
 

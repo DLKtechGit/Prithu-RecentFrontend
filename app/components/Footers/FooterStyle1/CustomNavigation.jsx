@@ -12,7 +12,7 @@ import profile from '../../../assets/images/icons/user2.png';
 
 const CustomNavigation = ({state,navigation,descriptors}) => {
     
-    const { colors } : {colors} = useTheme();
+    const { colors } = useTheme();
 
     const offset = useSharedValue(SIZES.width / 2.5);
     const icon1 = useSharedValue(0);

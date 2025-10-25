@@ -5,7 +5,7 @@ import { COLORS, SIZES } from '../../constants/theme';
 
 const BasicLineChart = () => {
 
-    const { colors } : {colors} = useTheme();
+    const { colors } = useTheme();
 
     return (
         <>

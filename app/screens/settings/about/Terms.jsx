@@ -8,7 +8,7 @@ import { useTheme } from '@react-navigation/native';
 const Terms = () => {
 
     const theme = useTheme();
-    const { colors } : {colors} = theme;
+    const { colors } = theme;
 
   return (
       <SafeAreaView style={{ backgroundColor: colors.card, flex: 1 }}>

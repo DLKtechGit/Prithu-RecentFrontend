@@ -6,7 +6,7 @@ import { useTheme } from '@react-navigation/native';
 const Search = (props) => {
 
     const theme = useTheme();
-    const { colors } : {colors } = theme;
+    const { colors } = theme;
 
     return (
         <View 

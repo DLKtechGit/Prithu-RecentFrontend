@@ -15,7 +15,7 @@ const TabButtonStyle2 = ({ buttons, onClick, scrollX }) => {
         outputRange: [0, -btnWidth],
     });
      const theme = useTheme();
-    const { colors } : {colors} = theme;
+    const { colors } = theme;
     
     return (
         <View

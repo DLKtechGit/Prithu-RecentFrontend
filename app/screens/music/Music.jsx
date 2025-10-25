@@ -48,7 +48,7 @@ const ReelsData = [
 const Music = ({ navigation } : MusicScreenProps) => {
 
     const theme = useTheme();
-    const { colors } : {colors} = theme;
+    const { colors } = theme;
 
     const moresheet = useRef();
 

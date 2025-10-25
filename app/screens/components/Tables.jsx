@@ -10,7 +10,7 @@ import { GlobalStyleSheet } from '../../constants/styleSheet';
 const Tables = () => {
 
      const theme = useTheme();
-    const { colors } : {colors} = theme;
+    const { colors } = theme;
 
     return (
         <SafeAreaView style={{ flex: 1, backgroundColor: colors.card }}>

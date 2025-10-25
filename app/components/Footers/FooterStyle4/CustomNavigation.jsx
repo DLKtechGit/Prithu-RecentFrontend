@@ -11,7 +11,7 @@ import addition from '../../../assets/images/icons/addition.png';
 
 const CustomNavigation = ({state,navigation,descriptors}) => {
 
-    const { colors } : {colors} = useTheme();
+    const { colors } = useTheme();
 
     return (
         <>

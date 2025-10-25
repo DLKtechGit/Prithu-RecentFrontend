@@ -10,7 +10,7 @@ import { GlobalStyleSheet } from '../../constants/styleSheet';
 const Headers = () => {
 
     const theme = useTheme();
-    const { colors } : {colors} = theme;
+    const { colors } = theme;
 
     return (
         <SafeAreaView style={[GlobalStyleSheet.container,{padding:0, flex: 1, backgroundColor: colors.card }]}>

@@ -5,7 +5,7 @@ import { useTheme } from '@react-navigation/native';
 
 const TabButtonStyle1 = ({ buttons, onClick, scrollX }) => {
 
-    const { colors } : {colors} = useTheme();
+    const { colors } = useTheme();
 
     const [btnContainerWidth, setWidth] = useState(0);
     const btnWidth = btnContainerWidth / buttons.length;

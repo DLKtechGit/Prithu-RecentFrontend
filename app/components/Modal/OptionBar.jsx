@@ -8,7 +8,7 @@ import Button from '../button/Button';
 
 const OptionBar = ({close}) => {
 
-    const { colors } : {colors} = useTheme();
+    const { colors } = useTheme();
 
     return (
         <>

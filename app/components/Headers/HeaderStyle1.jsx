@@ -6,7 +6,7 @@ import { useTheme } from '@react-navigation/native';
 
 const HeaderStyle1 = (props) => {
 
-    const { colors } : {colors} = useTheme();
+    const { colors } = useTheme();
 
     return (
         <>

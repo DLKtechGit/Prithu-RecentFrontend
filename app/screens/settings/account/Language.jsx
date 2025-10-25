@@ -15,7 +15,7 @@ const Language = () => {
     const [Language, setLanguage] = useState('English');
 
     const theme = useTheme();
-    const { colors } : {colors} = theme;
+    const { colors } = theme;
 
     const navigation = useNavigation();
 

@@ -7,7 +7,7 @@ import { COLORS, FONTS, IMAGES } from '../../constants/theme';
 
 const HeaderStyle2 = (props) => {
     
-    const { colors } : {colors} = useTheme();
+    const { colors } = useTheme();
 
     return (
         <>
